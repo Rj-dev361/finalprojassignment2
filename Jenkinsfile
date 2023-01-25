@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub username
+        //replaced
         DOCKER_IMAGE_NAME = "edurekadevopsrj/train-schedule"
     }
     stages {
