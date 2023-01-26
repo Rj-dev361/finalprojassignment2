@@ -3,6 +3,7 @@ pipeline {
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub username
         //replaced
+        //replaced 01/25/2023
         DOCKER_IMAGE_NAME = "edurekadevopsrj/train-schedule"
     }
     stages {
