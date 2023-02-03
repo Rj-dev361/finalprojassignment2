@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Running build automation'
                  echo 'Running build automation added RJ'
-                 echo "Running 02032023 15:53 pm"
+                 echo "Running 02032023 17:58 pm"
                 sh './gradlew build --no-daemon'
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
